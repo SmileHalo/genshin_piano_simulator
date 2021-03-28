@@ -12,7 +12,7 @@ import time
 import mido
 import win32api
 import win32con
-from multiprocessing import Process, Queue
+from multiprocessing import Process
 
 note_to_keyboard = {
     'E1': 'C',
